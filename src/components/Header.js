@@ -1,5 +1,8 @@
 import menu from "../Images/Menu.png";
 import logo from "../Images/Youtube.png";
+import mic from "../Images/Mic.png";
+import search from "../Images/search.png";
+import cross from "../Images/Cross.png";
 
 const Header = () => {
   return (
@@ -12,7 +15,21 @@ const Header = () => {
             <p className="youtube-logo-text">YouTube</p>
           </div>
         </div>
-        <div></div>
+        <div className="search-area">
+          <div className="search-box">
+            <div className="search">
+              <img
+                className="textarea-search-button"
+                src={search}
+                alt="search-button"
+              />
+              <input type="text" className="textbox" />
+              <img src={cross} alt="delete-search" />
+            </div>
+            <img className="search-button" src={search} alt="search-button" />
+          </div>
+          <img src={mic} alt="" />
+        </div>
         <div></div>
       </div>
     </>

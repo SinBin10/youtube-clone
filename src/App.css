@@ -1,27 +1,28 @@
 /* App.js */
 
 .left-width {
-  width: 20px;
+  width: 1.2rem;
 }
 
 /*Header.js*/
 
 .header {
   display: flex;
+  align-items: center;
 }
 .logo-div {
   display: flex;
-  height: 56px;
+  height: 3.5rem;
   align-items: center;
 }
 .menu {
-  height: 20px;
+  height: 1.2rem;
 }
 .youtube-logo {
-  height: 36px;
+  height: 2.2rem;
 }
 .youtube-logo-text {
-  font-size: 23px;
+  font-size: 1.4rem;
   font-weight: 600;
 }
 .logo {
@@ -29,4 +30,38 @@
   align-items: center;
   height: 100%;
   padding: 1.2rem 1rem;
+}
+.search-box {
+  display: flex;
+  border: 1px solid #484848;
+  border-radius: 40px;
+}
+.search {
+  display: flex;
+  width: 32.1rem;
+  justify-content: space-between;
+}
+.search:focus {
+  border: 1px solid #0053a0;
+  border-radius: 41px 0 0 41px
+}
+.search-area {
+  display: flex;
+  height: 2.5rem;
+}
+.textbox {
+  width: 100%;
+  background-color: black;
+  border: 0;
+  outline: 0;
+  color: white;
+}
+.textarea-search-button {
+  padding: 0.6rem;
+  margin-left: 4px;
+}
+.search-button {
+  padding: 0.4rem 1.2rem;
+  background-color: #242323;
+  border-radius: 0 41px 41px 0;
 }
